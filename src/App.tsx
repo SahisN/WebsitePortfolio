@@ -1,10 +1,16 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage"; // Ensure this is the correct path to your HomePage component
 import "./index.css";
+import ProjectPage from "./pages/ProjectPage";
 
 const App = () => {
   return (
-    <div className="flex justify-center items-center h-screen bg-blue-500">
-      <h1 className="text-4xl font-bold text-white">Hello, Tailwind CSS!</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/Projects" element={<ProjectPage />} />
+      </Routes>
+    </Router>
   );
 };
 
