@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{html,ts,tsx}", // Scan all JS, TS, JSX, and TSX files in src folder
   ],
   theme: {
-    extend: {}, // Add customizations here
+    extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif']
+      }
+    }, // Add customizations here
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
