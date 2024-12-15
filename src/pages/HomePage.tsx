@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar";
 const HomePage = () => {
   return (
     <div className="px-[20px] py-[20px] h-screen bg-black">
-      <NavBar />
+      <NavBar pageNo={0} />
       <div className="py-[50px] text-white">
         <section className="h-screen item-center justify-center">
           {/** left side */}
