@@ -1,6 +1,6 @@
 const SocialMedia = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center">
       <div className="border-t-2 border-gray-400 w-40 my-4"></div>
       <div className="flex space-x-2">
         <img

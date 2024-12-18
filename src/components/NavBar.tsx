@@ -4,8 +4,12 @@ interface props {
   pageNo: number;
 }
 
-const linkTitle = ["Home", "Project", "Skills", "Resume"];
-const link = ["/", "/projects", "/skills", "/resume"];
+const linkTitle = ["Home", "Project", "Resume"];
+const link = [
+  "/",
+  "/projects",
+  "https://docs.google.com/document/d/1X4qIh_f_rOgRqS4HHDS95Uy8DLl1Ytdy/edit?usp=sharing&ouid=101212552051483269170&rtpof=true&sd=true",
+];
 
 const NavBar = ({ pageNo }: props) => {
   return (
@@ -34,7 +38,7 @@ const NavBar = ({ pageNo }: props) => {
             return (
               <Link
                 key={index}
-                className="text-white hover:text-orange-400 text-2xl font-bold"
+                className="text-white hover:text-orange-400 text-2xl font-bold "
                 to={link[index]}
               >
                 {element}

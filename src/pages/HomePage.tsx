@@ -6,12 +6,11 @@ const HomePage = () => {
     <div className="px-[25px] py-[25px] h-screen bg-black">
       <NavBar pageNo={0} />
       <div className="py-[20px]">
-        <h1 className="text-4xl font-bold text-orange-400">______</h1>
+        <div className="border-t-2 border-orange-400 w-24 my-4"></div>
       </div>
 
       {/** Half text and half image section */}
-      <div className="py-[15px]">
-        {/** Left side */}
+      <div className="py-[15px] text-center">
         <div className="space-y-2 font-mono">
           <h1 className="text-3xl font-bold text-white">
             Hi, I'm Sahis Neupane, a
