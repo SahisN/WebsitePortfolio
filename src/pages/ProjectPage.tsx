@@ -10,7 +10,7 @@ const ProjectPage = () => {
     </div>
 
       <div className="py-[50px]">
-          <ProjectCard />
+          <ProjectCard description="ACM Flutter app aimed to help acm leaders and members stay up to date" title="ACM Calendar App" tools={['flutter', 'dart', 'panda', 'python']} key={0}/>
       </div>
     </div>
   );
