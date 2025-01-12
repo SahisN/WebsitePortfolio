@@ -1,11 +1,16 @@
-
 interface props {
   title: string,
   tools: string[],
   description: string,
+  image_src: string,
+  link: string,
 }
 
-function ProjectCard({title, tools, description} : props) {
+const redirect = (link : string) => {
+  window.location.href = link
+}
+
+function ProjectCard({title, tools, description, link} : props) {
   return (
     <div className="card lg:card-side bg-base-100 shadow-xl max-w-[650px] w-auto">
     <figure>
@@ -23,7 +28,7 @@ function ProjectCard({title, tools, description} : props) {
       <div className="card-description space-y-6 py-[15px]">
       <p className="max-w-[300px]">{description}</p>
       <div>
-        <button className="btn bg-blue-700 text-white hover:bg-blue-600">Learn More</button>
+        <button className="btn bg-blue-700 text-white hover:bg-blue-600" onClick={() => redirect(link)}>Learn More</button>
       </div>
       </div>  
     </div>
