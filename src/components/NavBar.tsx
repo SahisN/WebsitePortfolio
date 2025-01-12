@@ -8,7 +8,7 @@ const linkTitle = ["Home", "Project", "Resume"];
 const link = [
   "/",
   "/projects",
-  "#",
+  "https://drive.google.com/file/d/1tap-f0fn3VdNrtImC6giKXPx3dITPjRn/view?usp=sharing",
 ];
 
 const NavBar = ({ pageNo }: props) => {
