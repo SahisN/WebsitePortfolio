@@ -7,13 +7,13 @@ export function Intro() {
       animate="visible"
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
-      <div className="">
+      <div>
         <motion.div className="text-center text-6xl text-white max-w-[800px]">
           <span className="text-center">
             Hello{" "}
             <motion.span
-              animate={{ rotate: [0, 20, -10, 20, -5, 0] }}
-              transition={{ duration: 2, repeatDelay: 6, repeat: Infinity }}
+              //animate={{ rotate: [0, 20, -10, 20, -5, 0] }}
+              //transition={{ duration: 2, repeatDelay: 6, repeat: Infinity }}
               className="inline-block origin-[70%_70%]"
             >
               👋
