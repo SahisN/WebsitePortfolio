@@ -1,4 +1,4 @@
-import { CustomNavBar } from "../widgets/navbar/CustomNavBar";
+import { CustomNavBar } from "../widgets/CustomNavBar";
 import { Intro } from "./subpage/Introduction";
 
 export function HomePage() {

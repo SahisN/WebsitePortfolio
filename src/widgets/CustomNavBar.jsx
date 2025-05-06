@@ -32,11 +32,7 @@ export function CustomNavBar() {
             href="https://github.com/sahisn/websiteportfolio"
             className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg"
           >
-            <img
-              src="web-programming.png"
-              width={"35px"}
-              alt="source code"
-            ></img>
+            <img src="web-programming.png" width={"35px"} alt="source code" />
           </a>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { waveVariants } from "../../lib/motion";
 
 export function Intro() {
   return (
@@ -40,7 +39,7 @@ export function Intro() {
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.95 }}
           >
-            <img src="skills/github.svg" width={60} alt="github link" />
+            <img src="social/github.svg" width={60} alt="github link" />
           </motion.a>
 
           <motion.a
@@ -48,7 +47,7 @@ export function Intro() {
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.95 }}
           >
-            <img src="skills/linkedin.svg" width={78} alt="linkedin link" />
+            <img src="social/linkedin.svg" width={78} alt="linkedin link" />
           </motion.a>
         </div>
       </div>
