@@ -27,6 +27,13 @@ export function CustomNavBar() {
           >
             Contact Me
           </a>
+
+          <a
+            href="#about"
+            className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg"
+          >
+            <img src="public/web-programming.png" width={"35px"}></img>
+          </a>
         </div>
       </div>
     </div>

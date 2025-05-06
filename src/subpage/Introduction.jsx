@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { waveVariants } from "../../lib/motion";
 
 export function Intro() {
   return (
@@ -10,8 +11,15 @@ export function Intro() {
       <div className="">
         <motion.div className="text-center text-6xl text-white max-w-[800px]">
           <span className="text-center">
-            Hello <motion.span>👋</motion.span>, I'm Sahis Neupane, a software
-            engineer.
+            Hello{" "}
+            <motion.span
+              animate={{ rotate: [0, 20, -10, 20, -5, 0] }}
+              transition={{ duration: 2, repeatDelay: 6, repeat: Infinity }}
+              className="inline-block origin-[70%_70%]"
+            >
+              👋
+            </motion.span>
+            , I'm Sahis Neupane, a software engineer.
           </span>
         </motion.div>
 
