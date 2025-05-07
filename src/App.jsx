@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./App.css";
 import React from "react";
 import { routerConfig } from "./config/router";
 
