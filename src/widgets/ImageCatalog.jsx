@@ -8,6 +8,7 @@ export function ImageCatalog({ image_src, height, width, name }) {
       whileTap={{ scale: 0.95 }}
     >
       <img src={image_src} width={width} height={height} alt={name} />
+      <p className="text-center text-white">{name}</p>
     </motion.a>
   );
 }

@@ -133,7 +133,51 @@ export const DELOYPMENTS = [
 
   {
     deployment_service_name: "Kamatera",
-    image_path: "/skills/deployments/kama.png",
+    image_path: "/skills/deployments/kamatera.png",
+    width: 80,
+    height: 80,
+  },
+];
+
+export const TOOLS = [
+  {
+    tool_name: "Ansible",
+    image_path: "/skills/tools/ansible.svg",
+    width: 80,
+    height: 80,
+  },
+
+  {
+    tool_name: "Docker",
+    image_path: "/skills/tools/docker.svg",
+    width: 80,
+    height: 80,
+  },
+
+  {
+    tool_name: "Figma",
+    image_path: "/skills/tools/figma.svg",
+    width: 80,
+    height: 80,
+  },
+
+  {
+    tool_name: "Git",
+    image_path: "/skills/tools/git.svg",
+    width: 80,
+    height: 80,
+  },
+
+  {
+    tool_name: "Linux",
+    image_path: "/skills/tools/linux.svg",
+    width: 80,
+    height: 80,
+  },
+
+  {
+    tool_name: "Grafana",
+    image_path: "/skills/tools/grafana.svg",
     width: 80,
     height: 80,
   },

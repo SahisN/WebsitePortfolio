@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
-import { DATABASES, DELOYPMENTS, FRAMEWORKS, LANGANGUES } from "../../const";
+import {
+  DATABASES,
+  DELOYPMENTS,
+  FRAMEWORKS,
+  LANGANGUES,
+  TOOLS,
+} from "../../const";
 import { ImageCatalog } from "../../widgets/ImageCatalog";
 
 export function Skills() {
@@ -23,6 +29,18 @@ export function Skills() {
             height={language.height}
             width={language.width}
             name={language.language_name}
+            key={i}
+          />
+        ))}
+      </div>
+
+      <div className="flex flex-row justify-raround flex-wrap mt-4 gap-5 items-center text-white">
+        {TOOLS.map((tool, i) => (
+          <ImageCatalog
+            image_src={tool.image_path}
+            height={tool.height}
+            width={tool.width}
+            name={tool.tool_name}
             key={i}
           />
         ))}
@@ -58,7 +76,7 @@ export function Skills() {
             image_src={database.image_path}
             height={database.height}
             width={database.width}
-            name={database.name}
+            name={database.database_name}
             key={i}
           />
         ))}
