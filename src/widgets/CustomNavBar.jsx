@@ -10,7 +10,7 @@ export function CustomNavBar() {
             About Me
           </a>
           <a
-            href="#news"
+            href="#skills"
             className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg"
           >
             Skills

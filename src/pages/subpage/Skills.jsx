@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { LANGANGUES } from "../../const";
+import { DATABASES, DELOYPMENTS, FRAMEWORKS, LANGANGUES } from "../../const";
 import { ImageCatalog } from "../../widgets/ImageCatalog";
 
 export function Skills() {
@@ -22,6 +22,43 @@ export function Skills() {
             image_src={language.image_path}
             height={language.height}
             width={language.width}
+            name={language.language_name}
+            key={i}
+          />
+        ))}
+      </div>
+
+      <div className="flex flex-row justify-raround flex-wrap mt-4 gap-5 items-center text-white">
+        {FRAMEWORKS.map((framework, i) => (
+          <ImageCatalog
+            image_src={framework.image_path}
+            height={framework.height}
+            width={framework.width}
+            name={framework.framework_name}
+            key={i}
+          />
+        ))}
+      </div>
+
+      <div className="flex flex-row justify-raround flex-wrap mt-4 gap-5 items-center text-white">
+        {DELOYPMENTS.map((deployment, i) => (
+          <ImageCatalog
+            image_src={deployment.image_path}
+            height={deployment.height}
+            width={deployment.width}
+            name={deployment.deployment_service_name}
+            key={i}
+          />
+        ))}
+      </div>
+
+      <div className="flex flex-row justify-raround flex-wrap mt-4 gap-5 items-center text-white">
+        {DATABASES.map((database, i) => (
+          <ImageCatalog
+            image_src={database.image_path}
+            height={database.height}
+            width={database.width}
+            name={database.name}
             key={i}
           />
         ))}
