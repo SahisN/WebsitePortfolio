@@ -12,8 +12,8 @@ export function Intro() {
           <span className="text-center">
             Hello{" "}
             <motion.span
-              //animate={{ rotate: [0, 20, -10, 20, -5, 0] }}
-              //transition={{ duration: 2, repeatDelay: 6, repeat: Infinity }}
+              animate={{ rotate: [0, 20, -10, 20, -5, 0] }}
+              transition={{ duration: 2, repeatDelay: 6, repeat: Infinity }}
               className="inline-block origin-[70%_70%]"
             >
               👋
