@@ -183,4 +183,26 @@ export const TOOLS = [
   },
 ];
 
-export const PROJECTS = [];
+export const PROJECTS = [
+  {
+    title: "Splitsheets",
+    description:
+      "TuneSplit simplifies music splits by eliminating the chaos of spreadsheets and endless emails. With real-time collaboration, a centralized dashboard, and instant notifications, it keeps everything organized and transparent. Sharing split sheets is easy, reducing errors and ensuring everyone stays in the loop.",
+    image: "/projects/tunesplit.png",
+    link: "#",
+  },
+  {
+    title: "Association for Computing Machinery (ACM) Calendar App",
+    description:
+      "ACM APP is a Flutter application designed to help leaders and members stay up-to-date with upcoming ACM events. The app features an intuitive calendar interface similar to platforms like Google Calendar, allowing users to easily view events scheduled for specific days. Users can quickly identify which days have events and explore details for each one. Additionally, the app includes a reminder system, enabling users to set notifications for their favorite events and configure early reminders to ensure they don't miss important occasions.",
+    image: "/projects/project-2.png",
+    link: "#",
+  },
+  {
+    title: "BrailleAI",
+    description:
+      "BrailleAI is a web application designed for students and research teams to transform educational paragraphs into more engaging and culturally relevant content. Using AI, it takes standard, often unengaging texts and rewrites them in ways that resonate with students' cultural backgrounds and interests. Students can then read and rate the adapted content based on how interesting and culturally connected it feels to them.",
+    image: "/projects/brailleai.png",
+    link: "#",
+  },
+];

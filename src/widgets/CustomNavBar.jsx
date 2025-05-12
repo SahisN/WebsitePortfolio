@@ -16,7 +16,7 @@ export function CustomNavBar() {
             Skills
           </a>
           <a
-            href="#contact"
+            href="#projects"
             className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg"
           >
             Projects
