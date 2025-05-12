@@ -12,8 +12,8 @@ export function Intro() {
           <span className="text-center">
             Hello{" "}
             <motion.span
-              //animate={{ rotate: [0, 20, -10, 20, -5, 0] }}
-              //transition={{ duration: 2, repeatDelay: 6, repeat: Infinity }}
+              animate={{ rotate: [0, 20, -10, 20, -5, 0] }}
+              transition={{ duration: 2, repeatDelay: 6, repeat: Infinity }}
               className="inline-block origin-[70%_70%]"
             >
               👋
@@ -22,10 +22,13 @@ export function Intro() {
           </span>
         </motion.div>
 
-        <motion.p className="text-center text-white text-2xl text-gray-400 my-5 max-w-[800px] py-[15px]">
-          I'm very Passionate about building user friendly solutions and
-          committed to continuous learning and growth while delivering
-          high-quality results.
+        <motion.p className="text-center text-white text-2xl text-gray-400 my-5 max-w-[850px] py-[15px]">
+          I'm passionate about building efficient, user-friendly solutions and
+          committed to continuous learning and delivering high-quality results.
+          During my internship at Lockheed Martin, I supported multiple on-site
+          teams by maintaining and troubleshooting critical internal
+          applications, while also providing direct technical support to resolve
+          account and application issues.
         </motion.p>
 
         <motion.a className="py-2 justify-center text-center text-white text-xl cursor-pointer rounded-lg max-w-[200px] mx-auto block bg-gradient-to-r from-purple-800 to-purple-900 hover:from-purple-600 hover:to-purple-800 hover:shadow-[0_0_10px_4px_rgba(128,0,128,0.7)] transition-all">
