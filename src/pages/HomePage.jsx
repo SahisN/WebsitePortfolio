@@ -1,5 +1,6 @@
 import { CustomNavBar } from "../widgets/CustomNavBar";
 import { Intro } from "./subpage/Introduction";
+import { Projects } from "./subpage/Projects";
 import { Skills } from "./subpage/Skills";
 
 export function HomePage() {
@@ -8,6 +9,7 @@ export function HomePage() {
       <CustomNavBar />
       <Intro />
       <Skills />
+      <Projects />
     </div>
   );
 }

@@ -182,3 +182,5 @@ export const TOOLS = [
     height: 80,
   },
 ];
+
+export const PROJECTS = [];
