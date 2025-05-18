@@ -195,7 +195,7 @@ export const PROJECTS = [
     title: "Association for Computing Machinery (ACM) Calendar App",
     description:
       "ACM APP is a Flutter application designed to help leaders and members stay up-to-date with upcoming ACM events. The app features an intuitive calendar interface similar to platforms like Google Calendar, allowing users to easily view events scheduled for specific days. Users can quickly identify which days have events and explore details for each one. Additionally, the app includes a reminder system, enabling users to set notifications for their favorite events and configure early reminders to ensure they don't miss important occasions.",
-    image: "/projects/project-2.png",
+    image: "/projects/app.png",
     link: "#",
   },
   {
