@@ -21,12 +21,6 @@ export function CustomNavBar() {
           >
             Projects
           </a>
-          <a
-            href="#about"
-            className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg"
-          >
-            Contact Me
-          </a>
 
           <a
             href="https://github.com/sahisn/websiteportfolio"

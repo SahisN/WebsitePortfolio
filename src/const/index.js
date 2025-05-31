@@ -102,8 +102,8 @@ export const FRAMEWORKS = [
   },
 
   {
-    framework_name: "Bootstrap",
-    image_path: "/skills/frameworks/bootstrap.svg",
+    framework_name: "SpringBoot",
+    image_path: "/skills/frameworks/springboot.svg",
     width: 80,
     height: 80,
   },
@@ -199,10 +199,10 @@ export const PROJECTS = [
     link: "#",
   },
   {
-    title: "BrailleAI",
+    title: "InstantQuote",
     description:
-      "BrailleAI is a web application designed for students and research teams to transform educational paragraphs into more engaging and culturally relevant content. Using AI, it takes standard, often unengaging texts and rewrites them in ways that resonate with students' cultural backgrounds and interests. Students can then read and rate the adapted content based on how interesting and culturally connected it feels to them.",
-    image: "/projects/brailleai.png",
+      "Instant Quote is a full-stack web application that I designed and developed to streamline the insurance quoting process. The platform features a user-friendly UI/UX that allows users to sign up or log in securely using cookie-based authentication. Once authenticated, users can add their company details, address, and exposure amount to instantly receive a calculated insurance quote. These quotes are saved in a quote history, where users can edit them, bind them, or issue them as policies—triggering automatic recalculations of the premium based on updated data. I also implemented a class code lookup tool that enables users to search by code or description, providing accurate class code and description matches through smart filtering. The frontend was deployed on Vercel, and the backend on Render, ensuring a scalable and responsive deployment architecture.",
+    image: "/projects/instant.png",
     link: "#",
   },
 ];

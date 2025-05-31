@@ -19,6 +19,11 @@ export function Projects() {
           />
         ))}
       </div>
+      <div className="mt-[30px]">
+        <a className="px-[10px] py-[10px] justify-center text-center text-white text-xl cursor-pointer rounded-lg max-w-[200px] mx-auto block bg-gradient-to-r from-purple-800 to-purple-900 hover:from-purple-600 hover:to-purple-800 hover:shadow-[0_0_10px_4px_rgba(128,0,128,0.7)] transition-all">
+          Check Out More Projects
+        </a>
+      </div>
     </section>
   );
 }
