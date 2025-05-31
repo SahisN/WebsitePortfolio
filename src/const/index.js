@@ -185,24 +185,24 @@ export const TOOLS = [
 
 export const PROJECTS = [
   {
-    title: "Splitsheets",
+    title: "InstantQuote",
     description:
-      "TuneSplit simplifies music splits by eliminating the chaos of spreadsheets and endless emails. With real-time collaboration, a centralized dashboard, and instant notifications, it keeps everything organized and transparent. Sharing split sheets is easy, reducing errors and ensuring everyone stays in the loop.",
+      "Instant Quote is a full-stack web application that I designed and developed to streamline the insurance quoting process. The platform features a user-friendly UI/UX that allows users to sign up or log in securely using cookie-based authentication. Once authenticated, users can add their company details, address, and exposure amount to instantly receive a calculated insurance quote. These quotes are saved in a quote history, where users can edit them, bind them, or issue them as policies—triggering automatic recalculations of the premium based on updated data. I also implemented a class code lookup tool that enables users to search by code or description, providing accurate class code and description matches through smart filtering. The frontend was deployed on Vercel, and the backend on Render, ensuring a scalable and responsive deployment architecture.",
+    image: "/projects/instant.png",
+    link: "https://instant-quote-frontend.vercel.app/",
+  },
+  {
+    title: "TunesSplit",
+    description:
+      "TuneSplit is a collaborative web app designed to streamline the process of managing music contributor splits and agreements—solving the common issues of version control, miscommunication, and platform fragmentation. Built for music publishers and creators, the platform features real-time collaboration, seamless sharing, and instant notifications, all in one efficient interface. I contributed to the development of TuneSplit by improving platform efficiency by 30% through backend API optimization, and developing a robust history tracking system using React Query, Zustand, and custom hooks—boosting team productivity by 25%. I also redesigned authentication workflows to enhance UI/UX, leading to a 20% improvement in response time. The app now supports a growing user base of 50+ active users.",
     image: "/projects/tunesplit.png",
-    link: "#",
+    link: "https://tunesplit.com/login",
   },
   {
     title: "Association for Computing Machinery (ACM) Calendar App",
     description:
       "ACM APP is a Flutter application designed to help leaders and members stay up-to-date with upcoming ACM events. The app features an intuitive calendar interface similar to platforms like Google Calendar, allowing users to easily view events scheduled for specific days. Users can quickly identify which days have events and explore details for each one. Additionally, the app includes a reminder system, enabling users to set notifications for their favorite events and configure early reminders to ensure they don't miss important occasions.",
     image: "/projects/app.png",
-    link: "#",
-  },
-  {
-    title: "InstantQuote",
-    description:
-      "Instant Quote is a full-stack web application that I designed and developed to streamline the insurance quoting process. The platform features a user-friendly UI/UX that allows users to sign up or log in securely using cookie-based authentication. Once authenticated, users can add their company details, address, and exposure amount to instantly receive a calculated insurance quote. These quotes are saved in a quote history, where users can edit them, bind them, or issue them as policies—triggering automatic recalculations of the premium based on updated data. I also implemented a class code lookup tool that enables users to search by code or description, providing accurate class code and description matches through smart filtering. The frontend was deployed on Vercel, and the backend on Render, ensuring a scalable and responsive deployment architecture.",
-    image: "/projects/instant.png",
-    link: "#",
+    link: "https://github.com/SahisN/ACM_APP_PUBLIC",
   },
 ];
