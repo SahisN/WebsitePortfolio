@@ -52,6 +52,14 @@ export function Intro() {
           >
             <img src="social/linkedin.svg" width={78} alt="linkedin link" />
           </motion.a>
+
+          <motion.a
+            href="mailto:sahisneupane23@gmail.com"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <img src="social/gmail.svg" width={78} alt="gmail link" />
+          </motion.a>
         </div>
       </div>
     </motion.div>
