@@ -1,7 +1,3 @@
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { img } from "motion/react-client";
-
 export function ProjectCard({
   project_image,
   project_title,

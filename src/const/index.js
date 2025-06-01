@@ -205,4 +205,11 @@ export const PROJECTS = [
     image: "/projects/app.png",
     link: "https://github.com/SahisN/ACM_APP_PUBLIC",
   },
+  {
+    title: "BrailleAI",
+    description:
+      "BrailleAI is an inclusive web application developed to enhance reading comprehension for students with low vision, while remaining accessible to all. Designed with a strong focus on UI/UX, it leverages DeepSeek AI to transform generic paragraphs into culturally relevant and engaging content tailored to each student's background and gender. Built using React TypeScript, Python FastAPI, and MySQL, the system generates personalized reading material and comprehension questions, and collects feedback to evaluate understanding. Student input also contributes to a growing paragraph bank for future learners. BrailleAI is being prepared for use in various schools, including international institutions such as those in Canada.",
+    image: "/projects/brailleai.png",
+    link: "https://github.com/csuperbseniordesign/BrailleAI",
+  },
 ];
