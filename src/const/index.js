@@ -89,7 +89,7 @@ export const FRAMEWORKS = [
 
   {
     framework_name: "ExpressJS",
-    image_path: "/skills/frameworks/expressjs.svg",
+    image_path: "skills/frameworks/expressjs.svg",
     width: 80,
     height: 80,
   },
