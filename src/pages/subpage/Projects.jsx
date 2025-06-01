@@ -6,7 +6,7 @@ export function Projects() {
     <div className="py-10">
       <section
         id="projects"
-        className="flex flex-col items-center justify-center scroll-mt-28"
+        className="flex flex-col items-center justify-center scroll-mt-[60px]"
       >
         <h1 className="text-white text-6xl font-semibold py-20">My Projects</h1>
         <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">

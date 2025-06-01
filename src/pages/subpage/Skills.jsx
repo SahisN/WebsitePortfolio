@@ -13,7 +13,7 @@ export function Skills() {
     <div className="py-20">
       <section
         id="skills"
-        className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden scroll-mt-60"
+        className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden scroll-mt-[80px]"
       >
         <div className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]">
           <div>
