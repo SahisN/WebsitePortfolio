@@ -4,26 +4,38 @@ export function CustomNavBar() {
       <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between">
         <div className="flex items-center justify-between w-full h-auto bg-[rgba(3,0,20,0.37)] px-[10px] py-[10px] rounded-full text-gray-200">
           <a
-            href="#home"
-            className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg"
+            onClick={() =>
+              document
+                .getElementById("home")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+            className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg cursor-pointer"
           >
             About Me
           </a>
           <a
-            href="#skills"
-            className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg"
+            onClick={() =>
+              document
+                .getElementById("skills")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+            className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg cursor-pointer"
           >
             Skills
           </a>
           <a
-            href="#projects"
-            className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg"
+            onClick={() =>
+              document
+                .getElementById("projects")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+            className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg cursor-pointer"
           >
             Projects
           </a>
           <a
             href="https://github.com/sahisn/websiteportfolio"
-            className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg"
+            className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 rounded-full text-lg cursor-pointer"
           >
             <img src="web-programming.png" width="35px" alt="source code" />
           </a>
