@@ -31,10 +31,6 @@ export function Intro() {
           account and application issues.
         </motion.p>
 
-        <motion.a className="py-2 justify-center text-center text-white text-xl cursor-pointer rounded-lg max-w-[200px] mx-auto block bg-gradient-to-r from-purple-800 to-purple-900 hover:from-purple-600 hover:to-purple-800 hover:shadow-[0_0_10px_4px_rgba(128,0,128,0.7)] transition-all">
-          Reach Out
-        </motion.a>
-
         <div className="flex justify-center py-[20px] gap-[14px]">
           <motion.a
             className="py-2"
