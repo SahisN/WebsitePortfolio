@@ -1,11 +1,17 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import React from "react";
+import { HashRouter, useRoutes } from "react-router-dom";
+
 import { routerConfig } from "./config/router";
 
-const router = createBrowserRouter(routerConfig);
+function RoutesWrapper() {
+  return useRoutes(routerConfig);
+}
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <HashRouter>
+      <RoutesWrapper />
+    </HashRouter>
+  );
 }
 
 export default App;

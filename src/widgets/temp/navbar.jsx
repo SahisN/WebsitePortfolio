@@ -18,7 +18,11 @@ export const Navbar = () => {
         <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <a
-              href="#home"
+              onClick={() =>
+                document
+                  .getElementById("skills")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
               className="text-gray-100 px-4 py-3 text-base hover:bg-gray-700 text-lg"
             >
               Home

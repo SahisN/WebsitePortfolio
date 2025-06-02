@@ -7,18 +7,26 @@ import {
   TOOLS,
 } from "../../const";
 import { ImageCatalog } from "../../widgets/ImageCatalog";
+import { fadeIn } from "../../lib/animations";
 
 export function Skills() {
   return (
     <div className="py-20">
       <section
         id="skills"
-        className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden scroll-mt-60"
+        className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden scroll-mt-[80px]"
       >
         <div className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]">
           <div>
-            <motion.div className="text-center text-6xl text-white max-w-[800px]">
-              <span className="text-center">My Technology Stack</span>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              className="text-center text-6xl text-white max-w-[800px]"
+            >
+              <motion.span className="text-center" variants={fadeIn(1)}>
+                My Technology Stack
+              </motion.span>
             </motion.div>
           </div>
         </div>
@@ -30,6 +38,7 @@ export function Skills() {
               height={language.height}
               width={language.width}
               name={language.language_name}
+              index={i}
               key={i}
             />
           ))}
@@ -42,6 +51,7 @@ export function Skills() {
               height={tool.height}
               width={tool.width}
               name={tool.tool_name}
+              index={i}
               key={i}
             />
           ))}
@@ -54,6 +64,7 @@ export function Skills() {
               height={framework.height}
               width={framework.width}
               name={framework.framework_name}
+              index={i}
               key={i}
             />
           ))}
@@ -66,6 +77,7 @@ export function Skills() {
               height={deployment.height}
               width={deployment.width}
               name={deployment.deployment_service_name}
+              index={i}
               key={i}
             />
           ))}
@@ -78,6 +90,7 @@ export function Skills() {
               height={database.height}
               width={database.width}
               name={database.database_name}
+              index={i}
               key={i}
             />
           ))}

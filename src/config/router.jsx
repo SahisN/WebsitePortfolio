@@ -4,11 +4,11 @@ import { MoreProjects } from "../pages/MoreProjects";
 
 export const routerConfig = [
   {
-    path: "/sahis-website-portfolio",
+    path: "/",
     element: <HomePage />,
   },
   {
-    path: "/sahis-website-portfolio/projects",
+    path: "/projects",
     element: <MoreProjects />,
   },
 ];
