@@ -23,13 +23,19 @@ export function Intro() {
             </span>
           </motion.div>
 
-          <motion.p className="text-center text-white text-2xl text-gray-400 my-5 max-w-[850px] py-[15px]">
-            I'm passionate about building efficient, user-friendly solutions and
-            committed to continuous learning and delivering high-quality
-            results. During my internship at Lockheed Martin, I supported
-            multiple on-site teams by maintaining and troubleshooting critical
-            internal applications, while also providing direct technical support
-            to resolve account and application issues.
+          <motion.p className="text-center text-white text-2xl text-gray-400 my-5 max-w-[800px] py-[15px] mx-auto leading-relaxed">
+            I graduated from California State University Los Angeles with a
+            degree in Computer Science, where I discovered my passion for
+            software engineering through hands-on projects and student-led
+            initiatives. I became especially interested in building tools that
+            solve real-world problems and support collaboration. During my
+            internship at Lockheed Martin, I supported multiple on-site teams by
+            maintaining and troubleshooting critical internal applications,
+            while also providing direct technical support to resolve account and
+            application issues. Additionally, I served as a leader in the
+            Association for Computing Machinery (ACM), where I worked with
+            fellow leaders to design and build a mobile app that helped members
+            stay engaged with events and opportunities.
           </motion.p>
 
           <div className="flex justify-center py-[20px] gap-[14px]">
