@@ -7,6 +7,7 @@ import {
   TOOLS,
 } from "../../const";
 import { ImageCatalog } from "../../widgets/ImageCatalog";
+import { fadeIn, slideInFromTop } from "../../lib/animations";
 
 export function Skills() {
   return (
@@ -17,8 +18,14 @@ export function Skills() {
       >
         <div className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]">
           <div>
-            <motion.div className="text-center text-6xl text-white max-w-[800px]">
-              <span className="text-center">My Technology Stack</span>
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              className="text-center text-6xl text-white max-w-[800px]"
+            >
+              <motion.span className="text-center" variants={fadeIn(1.3)}>
+                My Technology Stack
+              </motion.span>
             </motion.div>
           </div>
         </div>
@@ -30,6 +37,7 @@ export function Skills() {
               height={language.height}
               width={language.width}
               name={language.language_name}
+              index={i}
               key={i}
             />
           ))}
@@ -42,6 +50,7 @@ export function Skills() {
               height={tool.height}
               width={tool.width}
               name={tool.tool_name}
+              index={i}
               key={i}
             />
           ))}
@@ -54,6 +63,7 @@ export function Skills() {
               height={framework.height}
               width={framework.width}
               name={framework.framework_name}
+              index={i}
               key={i}
             />
           ))}
@@ -66,6 +76,7 @@ export function Skills() {
               height={deployment.height}
               width={deployment.width}
               name={deployment.deployment_service_name}
+              index={i}
               key={i}
             />
           ))}
@@ -78,6 +89,7 @@ export function Skills() {
               height={database.height}
               width={database.width}
               name={database.database_name}
+              index={i}
               key={i}
             />
           ))}

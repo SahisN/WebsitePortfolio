@@ -1,4 +1,9 @@
 import { motion } from "framer-motion";
+import {
+  slideInFromLeft,
+  slideInFromRight,
+  slideInFromTop,
+} from "../../lib/animations";
 
 export function Intro() {
   return (
@@ -9,7 +14,10 @@ export function Intro() {
         className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
       >
         <div>
-          <motion.div className="text-center text-6xl text-white max-w-[800px]">
+          <motion.div
+            variants={slideInFromTop(0.5)}
+            className="text-center text-6xl text-white max-w-[800px]"
+          >
             <span className="text-center">
               Hello{" "}
               <motion.span
@@ -23,7 +31,10 @@ export function Intro() {
             </span>
           </motion.div>
 
-          <motion.p className="text-center text-white text-2xl text-gray-400 my-5 max-w-[800px] py-[15px] mx-auto leading-relaxed">
+          <motion.p
+            variants={slideInFromTop(1)}
+            className="text-center text-white text-2xl text-gray-400 my-5 max-w-[800px] py-[15px] mx-auto leading-relaxed"
+          >
             I graduated from California State University Los Angeles with a
             degree in Computer Science, where I discovered my passion for
             software engineering through hands-on projects and student-led
@@ -40,6 +51,7 @@ export function Intro() {
 
           <div className="flex justify-center py-[20px] gap-[14px]">
             <motion.a
+              variants={slideInFromLeft(2)}
               className="py-2"
               href="https://github.com/sahisn"
               whileHover={{ scale: 1.2 }}
@@ -49,6 +61,7 @@ export function Intro() {
             </motion.a>
 
             <motion.a
+              variants={slideInFromTop(2.5)}
               href="https://www.linkedin.com/in/sahisn/"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.95 }}
@@ -57,6 +70,7 @@ export function Intro() {
             </motion.a>
 
             <motion.a
+              variants={slideInFromRight(2)}
               href="mailto:sahisneupane23@gmail.com"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.95 }}
