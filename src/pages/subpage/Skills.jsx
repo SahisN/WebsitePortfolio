@@ -7,7 +7,7 @@ import {
   TOOLS,
 } from "../../const";
 import { ImageCatalog } from "../../widgets/ImageCatalog";
-import { fadeIn, slideInFromTop } from "../../lib/animations";
+import { fadeIn } from "../../lib/animations";
 
 export function Skills() {
   return (
@@ -20,10 +20,11 @@ export function Skills() {
           <div>
             <motion.div
               initial="hidden"
-              animate="visible"
+              whileInView="visible"
+              viewport={{ once: true }}
               className="text-center text-6xl text-white max-w-[800px]"
             >
-              <motion.span className="text-center" variants={fadeIn(1.3)}>
+              <motion.span className="text-center" variants={fadeIn(1)}>
                 My Technology Stack
               </motion.span>
             </motion.div>

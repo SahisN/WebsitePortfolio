@@ -11,6 +11,7 @@ export function Intro() {
       <motion.div
         initial="hidden"
         animate="visible"
+        viewport={{ once: true }}
         className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
       >
         <div>

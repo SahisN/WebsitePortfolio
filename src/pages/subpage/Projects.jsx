@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { PROJECTS } from "../../const";
 import { ProjectCard } from "../../widgets/ProjectCard";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../lib/animations";
 
 export function Projects() {
   return (
@@ -9,7 +11,15 @@ export function Projects() {
         id="projects"
         className="flex flex-col items-center justify-center scroll-mt-[60px]"
       >
-        <h1 className="text-white text-6xl font-semibold py-20">My Projects</h1>
+        <motion.h1
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeIn(0.5)}
+          className="text-white text-6xl font-semibold py-20"
+        >
+          My Projects
+        </motion.h1>
         <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
           {PROJECTS.slice(0, 3).map((project) => (
             <ProjectCard
