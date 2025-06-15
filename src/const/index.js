@@ -199,17 +199,17 @@ export const PROJECTS = [
     link: "https://tunesplit.com/login",
   },
   {
+    title: "PDFMerger",
+    description:
+      "A lightweight, user-friendly web application that allows users to seamlessly merge multiple PDF files and image files (JPG, JPEG, PNG) into a single PDF document. Built with a focus on usability and performance, this tool is ideal for students compiling homework images into a PDF, or professionals combining multiple documents and scans into one file.",
+    image: "projects/pdfmerger.png",
+    link: "https://sahisn.github.io/pdf-merger/",
+  },
+  {
     title: "Association for Computing Machinery (ACM) Calendar App",
     description:
       "ACM APP is a Flutter application designed to help leaders and members stay up-to-date with upcoming ACM events. The app features an intuitive calendar interface similar to platforms like Google Calendar, allowing users to easily view events scheduled for specific days. Users can quickly identify which days have events and explore details for each one. Additionally, the app includes a reminder system, enabling users to set notifications for their favorite events and configure early reminders to ensure they don't miss important occasions.",
     image: "projects/app.png",
     link: "https://github.com/SahisN/ACM_APP_PUBLIC",
-  },
-  {
-    title: "BrailleAI",
-    description:
-      "BrailleAI is an inclusive web application developed to enhance reading comprehension for students with low vision, while remaining accessible to all. Designed with a strong focus on UI/UX, it leverages DeepSeek AI to transform generic paragraphs into culturally relevant and engaging content tailored to each student's background and gender. Built using React TypeScript, Python FastAPI, and MySQL, the system generates personalized reading material and comprehension questions, and collects feedback to evaluate understanding. Student input also contributes to a growing paragraph bank for future learners. BrailleAI is being prepared for use in various schools, including international institutions such as those in Canada.",
-    image: "projects/brailleai.png",
-    link: "https://github.com/csuperbseniordesign/BrailleAI",
   },
 ];
