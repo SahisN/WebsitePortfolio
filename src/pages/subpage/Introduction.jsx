@@ -33,7 +33,7 @@ export function Intro() {
           </motion.div>
 
           <motion.p
-            variants={slideInFromTop(1)}
+            variants={slideInFromTop(0.5)}
             className="text-center text-white text-2xl text-gray-400 my-5 max-w-[800px] py-[15px] mx-auto leading-relaxed"
           >
             I graduated from California State University Los Angeles with a
@@ -52,7 +52,7 @@ export function Intro() {
 
           <div className="flex justify-center py-[20px] gap-[14px]">
             <motion.a
-              variants={slideInFromLeft(2)}
+              variants={slideInFromLeft(0.5)}
               className="py-2"
               href="https://github.com/sahisn"
               whileHover={{ scale: 1.2 }}
@@ -62,7 +62,7 @@ export function Intro() {
             </motion.a>
 
             <motion.a
-              variants={slideInFromTop(2.5)}
+              variants={slideInFromTop(1)}
               href="https://www.linkedin.com/in/sahisn/"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.95 }}
@@ -71,7 +71,7 @@ export function Intro() {
             </motion.a>
 
             <motion.a
-              variants={slideInFromRight(2)}
+              variants={slideInFromRight(0.5)}
               href="mailto:sahisneupane23@gmail.com"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.95 }}

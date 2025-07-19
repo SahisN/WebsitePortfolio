@@ -15,7 +15,7 @@ export function Projects() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          variants={fadeIn(0.5)}
+          variants={fadeIn(0.2)}
           className="text-white text-6xl font-semibold py-20"
         >
           My Projects
